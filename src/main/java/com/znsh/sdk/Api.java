@@ -151,7 +151,7 @@ public class Api {
 	 * @param product
 	 *            识别类别 可以批量,半角','隔开如101,102
 	 * @param images
-	 *            数量不超过4个
+	 *            数量不超过5个
 	 * @return
 	 */
 	public List<Result> detectImageUrls(String product, List<String> images) {
